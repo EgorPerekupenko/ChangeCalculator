@@ -1,0 +1,58 @@
+<html>
+<head><title>Change Calculator</title>	
+<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+<center>
+	<h1>Change Calculator</h1>
+	<div class="container">
+	      <fieldset>
+	           <div class="well" style="display:inline-block  width:100% " >
+	               <div class="row">	
+		                <div class="col-sm-6"><label>Price: </label>
+		                
+		                <input type="number" id="Price" placeholder="Listed Price">
+		                
+		                </div>
+		                         <div class="col-sm-6">
+		                             <label>Paid: </label>
+		
+		                                <input class="form-group" type="number" id="amountPaid" placeholder="Amount paid">
+	                             </div>
+	                </div>
+	           </div>
+			
+
+	                <div class="well" >
+			             <img src="dollar.jpeg" width="100px" height="100px">
+				              <h2>Dollars</h2>
+				                  <h4><p id="outputDollars"></p></h4>
+	                </div>
+			                <div class="row well" >
+				
+			                     <div class="col-sm-3" >
+				                   <img src="quarter.jpeg" width="100px" height="100px"><h2>Quarters</h2><h4><p id="outputQuarters"></p></h4>
+			                     </div>	
+				
+			                         <div class="col-sm-3">
+				                        <img src="dime.jpeg" width="100px" height="100px"><h2>Dimes</h2><h4><p id="outputDimes"></p></h4>
+			                         </div>
+				
+			                             <div class="col-sm-3">
+				                              <img src="nickel.jpeg" width="100px" height="100px"><h2>Nickles</h2><h4><p id="outputNickles"></p></h4>
+			                             </div>
+				
+			                                  <div class="col-sm-3">
+				                                   <img src="penny.jpeg" width="100px" height="100px"><h2>Pennies</h2><h4><p id="outputPennies"></p></h4>
+
+			                                  </div>
+                   
+           </fieldset>
+    </div>
+
+<button  id="btnCalculate" style="margin-top:50px" type="button" class="btn btn-success">Calculate</button>
+</center>
+<script  src="bower_components/jquery/dist/jquery.js"></script>
+<script  src="index.js"></script>
+</body>
+</html>
